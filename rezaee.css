@@ -151,6 +151,7 @@ header div img.bism
     left: 19%;
     display: none;
     /* transition: 0.6s ease; */
+    height: 156px;
 }
 
 /* Contents */
@@ -174,25 +175,31 @@ header div img.bism
 
 .ostad-info .overall-content
 {
+    position: absolute;
     color: white;
-    background-color: lightgray;
+    background-color: black;
     font-family: Script;
     font-size: 25px;
     width: 350px;
-    /* height: 350px; */
-    /* display: none; */
-
     height: 0;
+    border-style: solid;
+    /* border-color: black; */
+    border-width: 2px;
+    border-radius: 8px;
     transition: 0.6s ease;
+    opacity: 0.5;
 }
+
 .ostad-info .overall-content h1
 {
-    position: absolute;
     left: 95px;
     font-family: Script;
     color: white;
     font-size: 32px;
     top: 172px;
+    display: none;
+    width: 50%;
+    text-decoration-line: underline;
 }
 
 .ostad-info div.contents
@@ -222,4 +229,74 @@ header div img.bism
 {
     left: 20px;
     bottom: 10px;
+}
+
+
+/* Footer */
+
+footer
+{
+    position: absolute;
+    /*! background-color: #329bbd; */
+    /*! border-style: solid; */
+    /*! border-color: black; */
+    /*! border-width: 2px; */
+    width: 97%;
+    top: 1078px;
+    border-radius: 17px;
+    height: 189px;
+    padding-left: 60px;
+    padding-top: 12px;
+}
+
+footer p
+{
+    color: rgb(231, 225, 225);
+    font-family: Handlee-Regular;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+    transition: 0.6s;
+}
+footer p:hover
+{
+    color: black;
+    transform: rotateY(360deg);
+    cursor: pointer;
+}
+
+
+footer a
+{
+    font-family: Handlee-Regular;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: white;
+    font-size: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #a29e9e;
+    transition: 0.6s ease;
+    border-radius: 20px;
+    color: #c0bdbd;
+}
+
+footer a:hover
+{
+    color: black;
+    text-decoration: none;
+    border-color: black;
+}
+
+/* Header contents */
+header div
+{
+    height: 166px;
+}
+
+hr
+{
+    top: 1059px;
+    position: absolute;
+    width: 98%;
 }

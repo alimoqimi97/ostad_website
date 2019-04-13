@@ -60,13 +60,13 @@ function previousState()
 
 function ShowOverall()
 {
-    debugger;
+    // debugger;
 
-    // document.getElementById("ov-cn").style.height = 350 + "px";
     $("#ov-cn").height(350);
+    $("#mr").css("display","block").css("opacity",1);
 }
 function hideOverall()
 {
-    // document.getElementById("ov-cn").style.height = null;
-    $("#ov-cn").height(0);
+    document.getElementById("ov-cn").style.height = null;
+    document.getElementById("mr").style.display = null;
 }
