@@ -7,7 +7,7 @@
     /* position: absolute; */
     width: 100%;
     padding-left: 0;
-    z-index: 1;
+    z-index: 22;
     left: 0;
     opacity: 0.8;
     height: 80px;
@@ -164,13 +164,17 @@ header div img.bism
 }
 .ostad-info img.overall
 {
-    float: left;
+    /*! float: left; */
     border-radius: 8px;
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     border-style: solid;
     border-color: rgb(58, 33, 33);
     display: none;
+    position: absolute;
+    right: 3%;
+    top: 1px;
+    z-index: 20;
 }
 
 .ostad-info .overall-content
@@ -180,7 +184,7 @@ header div img.bism
     background-color: black;
     font-family: Script;
     font-size: 25px;
-    width: 350px;
+    width: 250px;
     height: 0;
     border-style: solid;
     /* border-color: black; */
@@ -188,6 +192,9 @@ header div img.bism
     border-radius: 8px;
     transition: 0.6s ease;
     opacity: 0.5;
+    right: 3%;
+    top: 0;
+    z-index: 20;
 }
 
 .ostad-info .overall-content h1
@@ -204,8 +211,8 @@ header div img.bism
 
 .ostad-info div.contents
 {
-    width: 70%;
-    float: right;
+    width: 97%;
+    /*! float: right; */
     font-family: Handlee-Regular;
     display: none;
     border-style: solid;
@@ -215,8 +222,9 @@ header div img.bism
     margin-left: 21px;
     padding-left: 14px;
     position: absolute;
-    top: 0px;
+    top: 0;
     right: 40px;
+    position: absolute;
 }
 
 .ostad-info div.contents p

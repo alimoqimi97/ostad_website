@@ -62,7 +62,7 @@ function ShowOverall()
 {
     // debugger;
 
-    $("#ov-cn").height(350);
+    $("#ov-cn").height(250);
     $("#mr").css("display","block").css("opacity",1);
 }
 function hideOverall()
